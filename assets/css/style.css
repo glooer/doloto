@@ -178,3 +178,10 @@ body {
 	display: flex;
 	align-items: center;
 }
+
+.doloto-title {
+	color: #0098ca;
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+}
