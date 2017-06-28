@@ -1,11 +1,11 @@
 @font-face {
 	font-family: aavanteintbook; /* Имя шрифта */
-	src: url(assets/fonts/6806.ttf); /* Путь к файлу со шрифтом */
+	src: url(../fonts/6806.ttf); /* Путь к файлу со шрифтом */
 }
 
 @font-face {
   font-family: MagistralBlackC;
-  src: url(assets/fonts/MagistralBlackC.otf) format("opentype");
+  src: url(../fonts/MagistralBlackC.otf) format("opentype");
 }
 
 
@@ -13,6 +13,7 @@
 body {
 	background-color: #eee;
 	/*font-family: aavanteintbook;*/
+	/*font-family: MagistralBlackC;*/
 }
 
 .group::after {
@@ -130,6 +131,11 @@ body {
 	padding: 0.2rem 0;
 }
 
+.content-product__item-desc {
+	height: 5rem;
+
+}
+
 .content-menu__item,
 .header-menu__item {
 	padding: 0.3rem 0.5rem;
@@ -148,11 +154,13 @@ body {
 .content-menu__item-text,
 .header-menu__item-text {
 	background: #0098ca;
-	padding: 1rem 0.5rem	;
+	padding: 1rem 0.5rem;
+	text-align: center;
 }
 
 .header-menu__item.header {
   margin: 0 15px;
+	font-size: 19px;
 }
 
 .header-info__container {
@@ -181,7 +189,123 @@ body {
 
 .doloto-title {
 	color: #0098ca;
-	font-size: 2rem;
+	font-size: 49px;
 	font-weight: bold;
 	text-align: center;
+	margin-bottom: 1rem;
+	font-family: MagistralBlackC;
+}
+
+.feedback-item__container {
+	font-size: 20px;
+}
+
+.feedback-item__username {
+	font-weight: bold;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+}
+
+.feedback-item__text {
+	margin-bottom: 2rem;
+}
+
+.footer-company-info__container {
+	background: white;
+	padding: 1rem 0;
+	font-size: 1.5rem;
+}
+
+.footer-copy__container {
+	background: #383838;
+	color: white;
+	padding: 0.5rem 0;
+}
+
+.callback__container {
+	background: #0098ca;
+	padding: 2rem;
+}
+
+.callback-form-form {
+	max-width: 500px;
+	margin: auto;
+}
+
+.callback-form__container {
+	color: white;
+	border: 1px solid;
+	border-radius: 10px;
+	padding: 1rem;
+}
+
+.callback-form__title__container {
+	text-align: center;
+	font-size: 45px;
+	margin-bottom: 1rem;
+	font-family: MagistralBlackC;
+}
+
+.btn-callback {
+	background: transparent;
+	border: 1px solid;
+	color: white;
+	border-radius: 1rem;
+	font-size: 28px;
+	font-family: aavanteintbook;
+	padding: 0.3rem 2rem;
+}
+
+.callback-form__title__submit {
+	text-align: center;
+  margin: 2rem 0;
+  margin-bottom: 1rem;
+}
+
+.about__map {
+	margin: auto;
+	text-align: center;
+	margin: 1rem 0;
+	border: 5px solid black;
+	border-radius: 10px;
+}
+
+.about__detail {
+	font-size: 30px;
+	text-align: center;
+	font-family: aavanteintbook;
+}
+
+.advantages-item__container {
+	background: #1098d4;
+  border-radius: 100px;
+	padding: 6px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.advantages-item__logo {
+	float: left;
+	background: #eeeeee;
+	margin-left: -6px;
+	margin-top: -6px;
+	padding-right: 10px;
+	border-radius: 60px;
+}
+
+.advantages-item__logo.right {
+	float: right;
+	padding: 0;
+	margin: 0;
+	margin-top: -66px;
+	margin-right: -6px;
+	padding-left: 10px;
+}
+
+.advantages-item__text {
+	max-width: 500px;
+	margin: auto;
 }
